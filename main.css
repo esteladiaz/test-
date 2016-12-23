@@ -1,0 +1,51 @@
+.container {
+  width: 50%;
+  height:500px;
+  background: #ffffff;
+	margin: auto;
+}
+/*
+.circle {
+  border-radius: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  background: white;
+}*/
+
+body {
+  font-family: 'Roboto Mono', monospace;
+	background: #ffffff url("#");
+	background-size: cover;
+}
+form {
+	margin: auto;
+	text-align: center;
+}
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+    background: #fff url("drink.png");
+    background-repeat: round;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+}
+section#result {
+  text-align: center;
+}
+section.container {
+  padding-top: 50px;
+}
+
+/* responsive */
+/* mobile */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+	.col {
+		width: 50%;
+	}
+}
